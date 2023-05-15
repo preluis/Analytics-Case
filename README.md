@@ -37,9 +37,9 @@ Make sure you have these tools installed on your system before running the code.
 
 ## Usage
 
-1. Clone the repository from GitHub: https://github.com/preluis/Analytics-Case.git
-2. Open SQLite Studio load the existing database "db".
-3. Execute the provided SQL script in the database to create the tables and load the initial data.
+1. Clone the repository from GitHub: https://github.com/preluis/Analytics-Case.git or open te drive folder
+2. Open SQLite Studio load the existing database "db", from drive folder or shared folder.
+3. Execute from SQLite the provided SQL script in the database to create the tables and load the initial data.
 4. Open Jupyter Lab and navigate to the project directory.
 5. Run the Python file (script.ipynb) to perform data queries and analysis.
 
