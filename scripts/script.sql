@@ -1,6 +1,6 @@
 --SQL solution--
 
---Initializaing and creating a ne table to be filled with neccesary information--
+--Initializing and creating a new table to be filled with transactional information--
  
 DROP TABLE IF EXISTS Balance;
 
