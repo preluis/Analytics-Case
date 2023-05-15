@@ -28,7 +28,7 @@ Make sure you have these tools installed on your system before running the code.
 
 ## Project Structure
 
-- /data: Folder containing the database files.
+- /data: Folder containing the database files and the database (only for drive version).
 - /diagram: Folder with a slice of the table structure from the Data Warehouse Environment (diagram/table_diagram.png) and the code used to generate these diagrams on file (diagram/table_diagram.txt).
 - /instructions: Deeper information about the analytics case.
 - /result: Folder with final CSV file with monthly balance.
@@ -37,11 +37,16 @@ Make sure you have these tools installed on your system before running the code.
 
 ## Usage
 
-1. Clone the repository from GitHub: https://github.com/preluis/Analytics-Case.git or open te drive folder
-2. Open SQLite Studio load the existing database "db", from drive folder or shared folder.
-3. Execute from SQLite the provided SQL script in the database to create the tables and load the initial data.
-4. Open Jupyter Lab and navigate to the project directory.
-5. Run the Python file (script.ipynb) to perform data queries and analysis.
+### For SQL resolution:
+1. Clone the repository from GitHub: https://github.com/preluis/Analytics-Case.git or download the drive folder
+2. Open SQLite Studio and load the existing database "db", from drive or GitHub folder.
+3. Execute from SQLite the provided SQL script in the database to create the tables and load the data.
+
+### For Python resolution:
+1. Open Jupyter Lab and navigate to the project directory.
+2. Open the Python file (script.ipynb) and follow the script guidane, make sure to adjust the db path in the code.
+3. Run the Python file to perform data queries and analysis.
+
 
 ## Additional Notes
 
