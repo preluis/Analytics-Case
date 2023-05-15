@@ -52,19 +52,9 @@ Make sure you have these tools installed on your system before running the code.
 If you wish to contribute to the project, follow these steps:
 
 1. Fork the repository.
-
-2. Create a new branch for your contribution:
-
-git checkout -b feature/new-feature
-
-3. Make your changes and commit them with descriptive messages:
-
-git commit -m "Add new feature"
-
-4. Push your branch to the remote repository:
-
-git push origin feature/new-feature
-
+2. Create a new branch for your contribution: git checkout -b feature/new-feature
+3. Make your changes and commit them with descriptive messages: git commit -m "Add new feature"
+4. Push your branch to the remote repository: git push origin feature/new-feature
 5. Open a pull request on GitHub and describe your changes in detail.
 
 ## License
