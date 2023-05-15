@@ -1,6 +1,6 @@
 # Analytics-Case
  
-Considering the information on tables in the "data" folder, it's needed to get all the account's monthly balances between Jan/2020 and Dec/2020.
+Based on the information provided in the "data" folder, we need to obtain the monthly balances for all accounts between Jan/2020 and Dec/2020.
 The SQL engine used was SQLite and SQLite studio as DMS.
 For Python resolution it was used JupyterLab with Anaconda Navigator.
   
@@ -12,21 +12,25 @@ For Python resolution it was used JupyterLab with Anaconda Navigator.
 
 ## Environment Setup
 
-This project utilizes the following tools and technologies:
+This project uses the following tools and technologies:
 
 - SQLite: A relational database for storing and querying data.
 - SQLite Studio: A graphical client for managing and visualizing SQLite databases.
 - Jupyter Lab (Anaconda Navigator): An interactive development environment used for running Python code and SQL queries.
 
-Make sure you have these tools installed on your system before running the code.
+Before running the code, ensure that you have these tools installed on your system.
 
 ## Setup Instructions
+
+Follow the below instructions to set up the required environment:
 
 1. SQLite Installation: (https://sqlite.org/download.html)
 2. SQLite Studio Installation: (https://sqlitestudio.pl/) 
 3. Jupyter Lab (Anaconda Navigator) Installation: (https://www.anaconda.com/download).
 
 ## Project Structure
+
+The project has the following structure:
 
 - /data: Folder containing the database files and the database (only for drive version).
 - /diagram: Folder with a slice of the table structure from the Data Warehouse Environment (diagram/table_diagram.png) and the code used to generate these diagrams on file (diagram/table_diagram.txt).
@@ -38,11 +42,15 @@ Make sure you have these tools installed on your system before running the code.
 ## Usage
 
 ### For SQL resolution:
-1. Clone the repository from GitHub: https://github.com/preluis/Analytics-Case.git or download the drive folder
+Follow the below steps to resolve SQL:
+
+1. Clone the repository from GitHub: https://github.com/preluis/Analytics-Case.git or download the drive folder.
 2. Open SQLite Studio and load the existing database "db", from drive or GitHub folder.
 3. Execute from SQLite the provided SQL script in the database to create the tables and load the data.
 
 ### For Python resolution:
+Follow the below steps to resolve the issue using Python:
+
 1. Open Jupyter Lab and navigate to the project directory.
 2. Open the Python file (script.ipynb) and follow the script guidane, make sure to adjust the db path in the code.
 3. Run the Python file to perform data queries and analysis.
