@@ -3,13 +3,28 @@
 Considering the information on tables in the "data" folfer, there is the need to get all the account's monthly balances between Jan/2020 and Dec/2020.
 The SQL engine used was SQLite and SQLite studio as DMS.
 For Python resolution it was used JupyterLab with Anaconda Navigator.
- 
- 
+  
 ## System Requirements
 
 - Python (version 3.10.9)
 - SQLite3 library (version 2.6.0)
 - Pandas library (version 1.5.3)
+
+## Environment Setup
+
+This project utilizes the following tools and technologies:
+
+- SQLite: A relational database for storing and querying data.
+- SQLite Studio: A graphical client for managing and visualizing SQLite databases.
+- Jupyter Lab (Anaconda Navigator): An interactive development environment used for running Python code and SQL queries.
+
+Make sure you have these tools installed on your system before running the code.
+
+## Setup Instructions
+
+1. SQLite Installation: (https://sqlite.org/download.html)
+2. SQLite Studio Installation: (https://sqlitestudio.pl/) 
+3. Jupyter Lab (Anaconda Navigator) Installation: (https://www.anaconda.com/download).
 
 ## Project Structure
 
@@ -19,29 +34,18 @@ For Python resolution it was used JupyterLab with Anaconda Navigator.
 - /scripts: Folder containing SQL and Python scripts.
 - README.md: Current file containing information about the project.
 
-## Installation
-
-1. Clone the repository from GitHub:
-https://github.com/preluis/Analytics-Case.git
-2. Install the required dependencies:
-pip install sqlite3
-pip install pandas
-
-3. Configure the database:
-
-- Copy the database files to the /data folder.
-
 ## Usage
 
-1. Open the "script.sql" file in SQLite Studio and execute the script to create the tables in the database.
+1. Clone the repository from GitHub: https://github.com/preluis/Analytics-Case.git
+2. Open SQLite Studio load the existing database "db".
+3. Execute the provided SQL script in the database to create the tables and load the initial data.
+4. Open Jupyter Lab and navigate to the project directory.
+5. Run the Python file to perform data queries and analysis.
 
-2. Open Jupyter Lab from Anaconda Navigator.
+## Additional Notes
 
-3. Run the "script.py" file in Jupyter Lab to obtain the results.
-
-## Examples
-
-Here, you can provide examples of input and output, screenshots, or links to live demonstrations.
+- Ensure that the database connection in the Python code is properly configured to reflect your environment and database location.
+- If you encounter any issues during setup or execution of the project, feel free to contact me for further assistance.
 
 ## Contribution
 
