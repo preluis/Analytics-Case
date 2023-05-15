@@ -40,7 +40,7 @@ Make sure you have these tools installed on your system before running the code.
 2. Open SQLite Studio load the existing database "db".
 3. Execute the provided SQL script in the database to create the tables and load the initial data.
 4. Open Jupyter Lab and navigate to the project directory.
-5. Run the Python file to perform data queries and analysis.
+5. Run the Python file (Script.ipynb) to perform data queries and analysis.
 
 ## Additional Notes
 
