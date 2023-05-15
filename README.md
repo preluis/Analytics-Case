@@ -1,6 +1,6 @@
 # Analytics-Case
  
-Considering the information on tables in the "data" folfer, there is the need to get all the account's monthly balances between Jan/2020 and Dec/2020.
+Considering the information on tables in the "data" folder, it's needed to get all the account's monthly balances between Jan/2020 and Dec/2020.
 The SQL engine used was SQLite and SQLite studio as DMS.
 For Python resolution it was used JupyterLab with Anaconda Navigator.
   
